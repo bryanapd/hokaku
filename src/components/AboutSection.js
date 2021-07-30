@@ -15,14 +15,6 @@ const AboutSection = () => {
               <span>Aogiri</span> Photography
             </motion.h2>
           </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnim}>
-              <span>Dedicated</span> and <span>passionate</span>
-            </motion.h2>
-          </Hide>
-          <Hide>
-            <motion.h2 variants={titleAnim}> photographer's.</motion.h2>
-          </Hide>
         </motion.div>
         <motion.p variants={fade}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
