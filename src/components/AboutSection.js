@@ -1,4 +1,4 @@
-import home1 from "../img/marti.jpg";
+import hero1 from "../img/hero1.jpg";
 import { About, Description, Image, Hide } from "../styles";
 //Framer Motion
 import { motion } from "framer-motion";
@@ -12,7 +12,7 @@ const AboutSection = () => {
         <motion.div>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              <span>Aogiri</span> Photography
+              <span>Hokaku</span> Photography
             </motion.h2>
           </Hide>
         </motion.div>
@@ -26,7 +26,7 @@ const AboutSection = () => {
         </Link>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="Section Home" />
+        <motion.img variants={photoAnim} src={hero1} alt="Section Home" />
       </Image>
       <Wave />
     </About>
