@@ -28,7 +28,7 @@ const AboutSection = () => {
       <Image>
         <motion.img variants={photoAnim} src={hero1} alt="Section Home" />
       </Image>
-      <Wave />
+      {/* <Wave /> */}
     </About>
   );
 };
